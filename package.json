@@ -1,6 +1,6 @@
 {
   "name": "@dominicbarnes/eslint-config-test",
   "description": "ESLint configuration for use in project tests",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.json"
 }
