@@ -1,0 +1,15 @@
+sudo: false
+language: node_js
+node_js: stable
+install: npm update
+cache:
+  directories:
+  - node_modules
+deploy:
+  provider: npm
+  email: dominic@dbarnes.info
+  api_key:
+    secure: S4pFPCAZ0ZCdmtUh/SFegKQGJ7QNrqseELaHccoeQps9fVhPECGaT2CFUkkkeEOFJIkDeWntSSiv58kg5T49w7wMTj1HXhiMMXEQ9VVBXVw/8AMThAEBywfX2IlAKyICfAxtdejsVdarCKynGhmygQYUTJ5kPBEr556d2f5eeqd1omMuXdpBAWE7mUF2ZLa3scDwMGJNqtGzz06iC+5Yvv4nVTpA1DkcYOr3RjxjYiuy2bBsZjcWuKdsucE7paHwNqnSnVPR3HKLidoAWl16bvZ5QbITnM6RCcGIzKFTDHaK3wxnoBktPQlJ8rIAWHweBKYwFQKs7QphGfMbx8szpu4QIA009rYhlWm6dVevBL8uyICALkLmRwNuyOu9Kgh1kmh4DY78iuzDxzfIeYH3XdzkUrNceWVEXqNO6VCTn8W8wn/8/nPGLmggb6luYKJHfzAN+AfT1C2GsFRvlFJCRdE8MO/mXb9x8lwcos4wpnAGZwD6YrbpbnTajfOmCvd1F5WcUrguoX4WANhZtFEn9lQQnUJB1zou+mhRru0yLmZIZWjr7plMeBHDrT6zQ8bx4DRw4iBaDvXc55b0qjl5jQ0LYj60p0UD5pFCz4VDMU6DyZRhgcvxMly3RAQSuoyoFI7Qn5XxR11eI5J0rYbGFiEHgBFCpq/STJO11OQa6hY=
+  on:
+    tags: true
+    repo: dominicbarnes/eslint-config-test

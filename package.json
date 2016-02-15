@@ -4,6 +4,14 @@
   "version": "0.1.1",
   "main": "index.json",
   "peerDependencies": {
-    "eslint-plugin-mocha": "^1.1.0"
+    "eslint": "^2.0.0",
+    "eslint-plugin-mocha": "^2.0.0"
+  },
+  "devDependencies": {
+    "jsonlint": "^1.6.2"
+  },
+  "scripts": {
+    "lint": "jsonlint -q index.json",
+    "test": "npm run lint"
   }
 }
