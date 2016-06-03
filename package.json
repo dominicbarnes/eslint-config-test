@@ -5,7 +5,7 @@
   "main": "index.json",
   "peerDependencies": {
     "eslint": "^2.0.0",
-    "eslint-plugin-mocha": "^2.0.0"
+    "eslint-plugin-mocha": "^3.0.0"
   },
   "devDependencies": {
     "jsonlint": "^1.6.2"
